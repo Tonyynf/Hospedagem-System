@@ -1,10 +1,22 @@
 ﻿using System;
-using System.Net.WebSockets;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.ConstrainedExecution;
+using System.Threading.Tasks;
+using Hospedagem.Models;
 
-public class Program{
+public class Program
+{
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello World!");
+        Reserva reserva1 = new Reserva();
+        Suite suite = new Suite();
+
+        reserva1.CadastrarSuite(suite);
+        
+        
+
+
     }
 }
 

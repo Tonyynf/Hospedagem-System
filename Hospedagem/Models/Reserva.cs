@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
+using Microsoft.VisualBasic;
 
 namespace Hospedagem.Models
 {
@@ -12,7 +13,9 @@ namespace Hospedagem.Models
         public Suite Suite { get; set; }
         public int DiasReservados { get; set; }
 
-        public void CadastraHospedes(List<Pessoa> hospedes){
+
+        public void CadastraHospedes(List<Pessoa> hospedes)
+        {
         
         }
 
@@ -23,14 +26,35 @@ namespace Hospedagem.Models
             string tipoSuite = suite.TipoSuite;
             int capacidade = suite.Capacidade;
             decimal valorDiaria = suite.ValorDiaria;
+
+            Console.Write("Digite o tipo de suite:");
+            tipoSuite = Console.ReadLine();
+
+            Console.Write("Digite a capacidade da suite:");
+            capacidade = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite o valor da diária:");
+            valorDiaria = decimal.Parse(Console.ReadLine());
         }
 
-        public int ObterQuantidadeDeHospedes(){
+        public int ObterQuantidadeDeHospedes()
+        {
             return Hospedes.Count();
         }
 
-        public decimal CalcularValorDiaria(){
-            return 0;
+        public decimal CalcularValorDiaria()
+        {
+            decimal valor = DiasReservados * Suite.ValorDiaria;
+
+            if (DiasReservados > 10)
+            {
+                decimal desconto = valor * 0.10M;
+                decimal valorComDesconto = valor - desconto;
+
+                return valorComDesconto;
+            }else{
+                return valor;
+            }
         }
 
     }

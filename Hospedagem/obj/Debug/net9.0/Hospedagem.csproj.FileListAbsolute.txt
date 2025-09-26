@@ -1,0 +1,15 @@
+C:\Users\anthonyencarnacao\Documents\Analista e Desenvolvedor de Software\Repository clones\Hospedagem\Hospedagem\bin\Debug\net9.0\Hospedagem.exe
+C:\Users\anthonyencarnacao\Documents\Analista e Desenvolvedor de Software\Repository clones\Hospedagem\Hospedagem\bin\Debug\net9.0\Hospedagem.deps.json
+C:\Users\anthonyencarnacao\Documents\Analista e Desenvolvedor de Software\Repository clones\Hospedagem\Hospedagem\bin\Debug\net9.0\Hospedagem.runtimeconfig.json
+C:\Users\anthonyencarnacao\Documents\Analista e Desenvolvedor de Software\Repository clones\Hospedagem\Hospedagem\bin\Debug\net9.0\Hospedagem.dll
+C:\Users\anthonyencarnacao\Documents\Analista e Desenvolvedor de Software\Repository clones\Hospedagem\Hospedagem\bin\Debug\net9.0\Hospedagem.pdb
+C:\Users\anthonyencarnacao\Documents\Analista e Desenvolvedor de Software\Repository clones\Hospedagem\Hospedagem\obj\Debug\net9.0\Hospedagem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anthonyencarnacao\Documents\Analista e Desenvolvedor de Software\Repository clones\Hospedagem\Hospedagem\obj\Debug\net9.0\Hospedagem.AssemblyInfoInputs.cache
+C:\Users\anthonyencarnacao\Documents\Analista e Desenvolvedor de Software\Repository clones\Hospedagem\Hospedagem\obj\Debug\net9.0\Hospedagem.AssemblyInfo.cs
+C:\Users\anthonyencarnacao\Documents\Analista e Desenvolvedor de Software\Repository clones\Hospedagem\Hospedagem\obj\Debug\net9.0\Hospedagem.csproj.CoreCompileInputs.cache
+C:\Users\anthonyencarnacao\Documents\Analista e Desenvolvedor de Software\Repository clones\Hospedagem\Hospedagem\obj\Debug\net9.0\Hospedagem.sourcelink.json
+C:\Users\anthonyencarnacao\Documents\Analista e Desenvolvedor de Software\Repository clones\Hospedagem\Hospedagem\obj\Debug\net9.0\Hospedagem.dll
+C:\Users\anthonyencarnacao\Documents\Analista e Desenvolvedor de Software\Repository clones\Hospedagem\Hospedagem\obj\Debug\net9.0\refint\Hospedagem.dll
+C:\Users\anthonyencarnacao\Documents\Analista e Desenvolvedor de Software\Repository clones\Hospedagem\Hospedagem\obj\Debug\net9.0\Hospedagem.pdb
+C:\Users\anthonyencarnacao\Documents\Analista e Desenvolvedor de Software\Repository clones\Hospedagem\Hospedagem\obj\Debug\net9.0\Hospedagem.genruntimeconfig.cache
+C:\Users\anthonyencarnacao\Documents\Analista e Desenvolvedor de Software\Repository clones\Hospedagem\Hospedagem\obj\Debug\net9.0\ref\Hospedagem.dll
