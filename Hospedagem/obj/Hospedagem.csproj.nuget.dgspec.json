@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anthonyencarnacao\\Documents\\Analista e Desenvolvedor de Software\\Repository clones\\Hospedagem\\Hospedagem\\Hospedagem.csproj": {}
+    "C:\\Users\\tonye\\Documents\\Clones de repositorios\\Hospedagem-System\\Hospedagem\\Hospedagem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anthonyencarnacao\\Documents\\Analista e Desenvolvedor de Software\\Repository clones\\Hospedagem\\Hospedagem\\Hospedagem.csproj": {
+    "C:\\Users\\tonye\\Documents\\Clones de repositorios\\Hospedagem-System\\Hospedagem\\Hospedagem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anthonyencarnacao\\Documents\\Analista e Desenvolvedor de Software\\Repository clones\\Hospedagem\\Hospedagem\\Hospedagem.csproj",
+        "projectUniqueName": "C:\\Users\\tonye\\Documents\\Clones de repositorios\\Hospedagem-System\\Hospedagem\\Hospedagem.csproj",
         "projectName": "Hospedagem",
-        "projectPath": "C:\\Users\\anthonyencarnacao\\Documents\\Analista e Desenvolvedor de Software\\Repository clones\\Hospedagem\\Hospedagem\\Hospedagem.csproj",
-        "packagesPath": "C:\\Users\\anthonyencarnacao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anthonyencarnacao\\Documents\\Analista e Desenvolvedor de Software\\Repository clones\\Hospedagem\\Hospedagem\\obj\\",
+        "projectPath": "C:\\Users\\tonye\\Documents\\Clones de repositorios\\Hospedagem-System\\Hospedagem\\Hospedagem.csproj",
+        "packagesPath": "C:\\Users\\tonye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tonye\\Documents\\Clones de repositorios\\Hospedagem-System\\Hospedagem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\anthonyencarnacao\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\tonye\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

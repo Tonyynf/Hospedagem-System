@@ -9,5 +9,13 @@ namespace Hospedagem.Models
     {
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
+
+        public Pessoa(string Nome, string Sobrenome)
+        {
+            this.Nome = Nome;
+            this.Sobrenome = Sobrenome;
+        }
+
+        public string NomeCompleto => $"{Nome} {Sobrenome}";
     }
 }

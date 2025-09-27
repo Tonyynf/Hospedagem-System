@@ -9,32 +9,32 @@ namespace Hospedagem.Models
 {
     public class Reserva
     {
-        public List<Pessoa> Hospedes { get; set; } = new List<Pessoa>();
+        public List<Pessoa> Hospedes { get; set; }
         public Suite Suite { get; set; }
         public int DiasReservados { get; set; }
 
 
+        public Reserva(int DiasReservados)
+        {
+            this.DiasReservados = DiasReservados;  
+            Hospedes = new List<Pessoa>();
+        }
+
         public void CadastraHospedes(List<Pessoa> hospedes)
         {
-        
+            if (hospedes.Count() <= Suite.Capacidade)
+            {
+                Hospedes = hospedes;
+            }
+            else
+            {
+                throw new Exception("A quantidade de hóspedes excede a capacidade da suíte.");
+            }
         }
 
         public void CadastrarSuite(Suite suite)
         {
             Suite = suite;
-
-            string tipoSuite = suite.TipoSuite;
-            int capacidade = suite.Capacidade;
-            decimal valorDiaria = suite.ValorDiaria;
-
-            Console.Write("Digite o tipo de suite:");
-            tipoSuite = Console.ReadLine();
-
-            Console.Write("Digite a capacidade da suite:");
-            capacidade = int.Parse(Console.ReadLine());
-
-            Console.Write("Digite o valor da diária:");
-            valorDiaria = decimal.Parse(Console.ReadLine());
         }
 
         public int ObterQuantidadeDeHospedes()
@@ -48,7 +48,7 @@ namespace Hospedagem.Models
 
             if (DiasReservados > 10)
             {
-                decimal desconto = valor * 0.10M;
+                decimal desconto = valor * 0.90M;
                 decimal valorComDesconto = valor - desconto;
 
                 return valorComDesconto;
