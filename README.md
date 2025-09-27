@@ -1,3 +1,3 @@
 # Sistema de hospedegem
 
-Esse é um sistema de hospedagem de hotel, que você pode criar reserva, cadastrar clientes e diferentes tipo de suite.
+Este é um sistema de hospedagem de hotel que você pode fazer reservas, cadastrar clientes e diferentes tipos de suite.
